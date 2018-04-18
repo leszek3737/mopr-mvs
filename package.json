@@ -1,5 +1,5 @@
 {
-  "name": "gulpconfigfiles",
+  "name": "mopr-mvc",
   "version": "1.0.0",
   "description": "",
   "main": "gulpfile.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/leszek3737/GulpConfigFiles.git"
+    "url": "git+https://github.com/leszek3737/mopr-mvs.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/leszek3737/GulpConfigFiles/issues"
+    "url": "https://github.com/leszek3737/mopr-mvs/issues"
   },
-  "homepage": "https://github.com/leszek3737/GulpConfigFiles#readme",
+  "homepage": "https://github.com/leszek3737/mopr-mvs#readme",
   "devDependencies": {
     "autoprefixer": "^7.2.3",
     "babel-core": "^6.26.0",

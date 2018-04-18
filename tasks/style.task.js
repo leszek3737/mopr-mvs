@@ -34,7 +34,7 @@ module.exports = gulp => {
                 cssnano(),
                     ]))
 			.pipe($.uncss({
-				html: [config.glob.html],
+				html: [config.glob.content],
 				ignore: config.unCssIgnore,
 			}))
 			.pipe($.rename(config.name.cssMin))

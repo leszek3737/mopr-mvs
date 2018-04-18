@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>TestApp - an awesome exercise</title>
+
+    <!-- inject:css -->
+    <!-- endinject -->
+</head>
+<body>
+  <script>
+        window.__data__ = {
+            dps: [{
+                    id: 0,
+                    koszt: 4000,
+                    name: "DPS 1",
+                },
+                {
+                    id: 1,
+                    koszt: 3900,
+                    name: "DPS 2",
+                },
+                {
+                    id: 2,
+                    koszt: 3900,
+                    name: "DPS 3",
+                }
+            ],
+            incomeCriterion: {
+                alone: 1902,
+                family: 1542
+            },
+            numberKinshipDegrees: 4, // -1 
+            kinshipDegree: [{
+                    id: 0,
+                    name: "Małżonek",
+                    mustBeUnique: true,
+                },
+                {
+                    id: 1,
+                    name: "Dziecko",
+                    mustBeUnique: false,
+
+                },
+                {
+                    id: 2,
+                    name: "Wnuk",
+                    mustBeUnique: false,
+                },
+                {
+                    id: 3,
+                    name: "Rodzic",
+                    mustBeUnique: false,
+
+                },
+                {
+                    id: 4,
+                    name: "Dziadki",
+                    mustBeUnique: false,
+                },
+            ],
+        }
+
+    </script>
+    <!-- build:jsLib -->
+    <!-- endbuild -->
+    <!-- build:js -->
+    <!-- endbuild -->
+    <!-- endbuild -->
+</body>

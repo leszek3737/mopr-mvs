@@ -30,4 +30,8 @@ module.exports = gulp => {
 			done
 		);
 	});
+	gulp.task('copyToWp', () => {
+		return gulp.src(config.glob.dist)
+			.pipe(gulp.dest(config.path.wp));
+	});
 }
